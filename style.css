@@ -1,0 +1,88 @@
+/* Global Reset and Font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'VT323', monospace;
+}
+
+body {
+  line-height: 1.6;
+  color: #333;
+  background: #f4f4f4;
+  scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+  background: #007B83;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  animation: slideDown 1s ease-out;
+}
+
+header h1 {
+  font-size: 2.2em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+.contact-info {
+  margin-top: 8px;
+  font-size: 1em;
+}
+
+/* Navigation */
+nav {
+  text-align: center;
+  padding: 15px 0;
+  background: #fff;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #007B83;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #005c5f;
+}
+
+/* Container */
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+/* Section Headings */
+h2 {
+  color: #007B83;
+  margin-bottom: 15px;
+  font-size: 1.8em;
+}
+
+/* Sections */
+.section {
+  margin-bottom: 30px;
+}
+
+/* Lists */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  line-height:
